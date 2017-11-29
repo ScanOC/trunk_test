@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Dylan was here</title>
+</head>
+<body>
+<h3>Dylan was here</h3>
+<hr>
+<ul>
+{% for sta in object_list %}
+  <li><strong>{{ sta.number }}</strong>  -  {{ sta.name }} </li>
+{% endfor %}
+</ul>
+</body>
+</html>
